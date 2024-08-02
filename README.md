@@ -1,14 +1,16 @@
 # Pimcore Symfony Flex Skeleton
 
 1. Clone this repository
-2. Run `composer install`
-3. It would ask about adding new config and docker, reply `y` to both
+2. Open folder
+3. Create a bash terminal from that folder eg. ```sudo docker run -it -u `id -u`:`id -g` --rm -v `pwd`:/var/www/html pimcore/pimcore:php8.3-latest bash```
+4. Run `composer install`
+5. It would ask about adding new config and docker, reply `y` to both
 ![image](https://github.com/user-attachments/assets/b27af085-5839-40e2-8c3c-db30cde0b28b)
 
 
-4. Docker: Fix `compose.yaml` user and user group id
-5. Start the needed services with `docker compose up -d`
-6. Install pimcore and initialize the DB `docker compose exec php vendor/bin/pimcore-install`
+6. Docker: Fix `compose.yaml` user and user group id
+7. Start the needed services with `docker compose up -d`
+8. Install pimcore and initialize the DB `docker compose exec php vendor/bin/pimcore-install`
 
 ## Test public repository
 
