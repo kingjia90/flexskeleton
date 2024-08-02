@@ -23,9 +23,6 @@
 ## Test private repositories
 
 `composer require pimcore/portal-engine` and it would ask to run the recipe, press `y` and would copy the controller, template and config 
-> [!WARNING]  
-> There should be a `symfony.lock` in the portal engine to avoid being prompted to install the recipes that are not necessary.
-
 
 
 ## Notes
