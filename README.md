@@ -1,3 +1,7 @@
+> [!WARNING]  
+> EXPERIMENTAL: NOT TO BE USED, PART OF FEASIBILITY CHECK TO USE SYMFONY FLEX
+>
+
 # Pimcore Symfony Flex Skeleton
 
 1. Clone this repository
